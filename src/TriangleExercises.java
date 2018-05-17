@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class TriangleExercices {
+public class TriangleExercises {
 
     private static final String ASTERISK = "*";
     public static void PrintsANumberOfAsterisksHorizontalLine( int number){
@@ -17,6 +17,13 @@ public class TriangleExercices {
     }
 
     public static void main(String[] args) {
+        System.out.println("Print one asterisk\n");
+        PrintOneAsterisks();
+        System.out.println("Print A Number Of Asterisks Horizontal Line \n ");
+        PrintsANumberOfAsterisksHorizontalLine(7);
+        System.out.println("\nPrint A Number Of Asterisks Vertical Line ");
+        PrintsANumberOfAsterisksVerticalLine(7);
+
 
 
 
